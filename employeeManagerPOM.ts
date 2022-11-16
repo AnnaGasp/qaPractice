@@ -1,6 +1,4 @@
 import{Builder, By, Capabilities, until,WebDriver, WebElement}from"selenium-webdriver";
-const chromedriver = require("chromedriver")
-const driver:WebDriver = new Builder().withCapabilities(Capabilities.chrome()).build();
 
 export class employeePage{
     driver: WebDriver;
